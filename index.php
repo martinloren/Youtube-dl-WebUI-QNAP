@@ -9,7 +9,6 @@
     require_once("commands.php");
 
 
-
     if(isset($_POST['passwd']) && !empty($_POST['passwd'])) startSession($_POST['passwd']);
     if(isset($_GET['logout']) && $_GET['logout'] == 1) endSession();
 ?>
@@ -173,15 +172,11 @@
                     <div class="info-box">
                         <div class="meta">
                             <div class="row title"></div>
-                            <div class="row duration">19:12</div>
+                            <div class="row duration"></div>
                         </div>
                         <div class="link-box">
                             <div class="def-btn-box"><a class="link link-download subname download-icon" data-quality="720" data-type="mp4" href="#">Download</a></div>
-                            <div class="drop-down-box">
-                                <div class="def-btn-name">MP4 <span class="subname">720</span></div>
-                            </div>
                         </div>
-                        <div class="def-file-info"></div>
                     </div>
                 </div>
     
