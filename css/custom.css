@@ -1,98 +1,73 @@
-
-.progress{
-    height: 21px;
-}
-.result-box {
-    border: 1px solid #dadada;
-    clear: both;
-    padding: 0;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 28px;
-    width: 100%;
-    box-shadow: 0 1px 0 0 #e9e9e9;
-    display: inline-block;
-}
-.result-box .info-box {
-    border: none;
-    float: left;
-    font-family: Roboto,Arial,Helvetica,sans-serif;
-    font-size: 17px;
-    font-weight: 300;
-    position: relative;
-    padding: 18px 26px;
-    width: 70%;
-    min-height: 115px;
-}
-.result-box .meta {
-    color: #3e3e3e;
-    min-height: 46px;
-}
-.result-box .meta .row {
-    color: #a5a5a5;
-    margin-top: 0;
-    margin-bottom: 4px;
-}
-.result-box .meta .title {
-    color: #3e3e3e;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-.result-box .link-box {
-    font-weight: 400;
-    margin-top: 32px;
-    *zoom: 1;
-}
-.result-box .link-box .def-btn-box {
-    color: #fff;
-    background-color: #00a129;
-    border: 2px solid #00a129;
-    display: block;
-    float: left;
-    padding: 0 10px;
-    margin: 0;
-}
-.result-box .link-box .drop-down-box {
-    display: block;
-    float: left;
-    position: relative;
-}
-.result-box .link-box .def-btn-box a {
-    color: #fff;
-    display: inline-block;
-    text-decoration: none;
-}
-.result-box .link-box .def-file-info {
-    color: #a5a5a5;
-    font-weight: 300;
-    display: block;
-    float: left;
-}
-.result-box .thumb-box {
-    border: none;
-    float: left;
-    position: relative;
-    margin-left: -1px;
-    margin-top: -1px;
-    margin-bottom: -1px;
-    width: 30%;
-    padding: 0;
-}
-.thumb-box, .thumb-box {
-    overflow: hidden;
-    position: relative;
-}
-.result-box.video .thumb-box {
-    background-color: #222;
-}
-.thumb-box .thumb {
-    display: block;
-    z-index: 1;
-}
-.thumb {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
+.github-ribbon {
+    position: fixed;
+    width: 150px;
     height: 150px;
-}
+    overflow: hidden;
+    z-index: 99999;
+    bottom: 0px;
+    right: 0px;
+  }
+  .github-ribbon a {
+    display: inline-block;
+    width: 200px;
+    overflow: hidden;
+    padding: 6px 0px;
+    text-align: center;
+    transform: rotate(-45deg);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    position: inherit;
+    border-width: 1px 0px;
+    border-style: dotted;
+    border-color: rgba(255, 255, 255, 0.7);
+    font: 700 13px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 3px 0px;
+    background-color: #777777;
+    bottom: 45px;
+    right: -40px;
+    border-width: 1px 0px;
+    border-style: dotted;
+    border-color: rgba(255, 255, 255, 0.7);
+  }
+  .text-muted a {
+    color: #a6aecf;
+  }
+  .footer {
+    position: relative;
+    min-height: 60px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    border: 1px solid transparent;
+  }
+  .footer p {
+    margin: 15px 0;
+  }
+  .footer-default {
+    background-color: #F3F3F4;
+    border-color: transparent;
+  }
+  .footer .footer-static-bottom {
+    position: absolute;
+    bottom: 0px;
+  }
+  .footer h4 {
+    text-align: center;
+    color: rgb(35,95,134);;
+  }
+  .footer .text-muted h4, .footer.text-muted h4{
+    text-align: center;
+    color: rgb(145,175,194);;
+  }
+
+  hr {
+    height: 4px;
+    margin-left: 15px;
+  }
+  .hr-primary{
+    background: rgb(35,95,134);
+    background: radial-gradient(circle, rgba(35,95,134,.8), rgba(0,0,0,0));
+  }
+  .hr-muted{
+    background: rgb(145,175,194);
+    background: radial-gradient(circle, rgba(145,175,194,.8), rgba(0,0,0,0));
+  }

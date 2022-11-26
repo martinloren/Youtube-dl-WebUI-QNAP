@@ -57,7 +57,7 @@
             <?php
             if(authorized()) { 
             ?>
-                <form id="submit_form" class="form-horizontal" action="/settings.php" method="post">
+                <form id="submit_form" class="form-horizontal" action="settings.php" method="post">
                     <fieldset>
                         <div class="form-group">
                             <label for="folder" class="col-sm-2 control-label">Download Folder</label>
@@ -134,11 +134,6 @@
             <a href="index.php">Back to download page</a>
         </div>
         </div><!-- End container -->
-        <br>
-        <footer>
-            <div class="well text-center">
-                <p></p>
-            </div>
-        </footer>
+        <?php include("includes/footer.php") ?>
     </body>
 </html>
