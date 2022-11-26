@@ -1,0 +1,11 @@
+{
+    "folder": "/share/Multimedia/Web Videos/",
+    "format": "bestvideo[height<=480]+bestaudio\/best[height<=480]",
+    "filename": "%(title)s[%(id)s].%(ext)s",
+    "downloadLogFolder":"/share/Web/logs/",
+    "mergeOutputFormat":"mp4",
+    "ffmpeg": "/opt/ffmpeg",
+    "security": "",
+    "password": "",
+    "proxy": ""
+}
